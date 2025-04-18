@@ -1,5 +1,9 @@
 name: Plantopia Infrastructure/Terrafrom CI/CD Pipeline
 
+permissions:
+  id-token: write
+  contents: read
+
 concurrency:
   group: terraform-${{ github.ref }}
   cancel-in-progress: true
