@@ -1,4 +1,5 @@
 /.terraform
 /.idea
 
+.DS_Store
 .terraform.lock.hcl
